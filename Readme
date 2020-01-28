@@ -1,0 +1,40 @@
+1. Python unittest HTML TestRunner Reports
+2. Selenium Python Test Case using Unit Test, HTML Reports.
+3. Selenium Python Project - Unit Test, POM, HTML Reports.
+
+INSTALL html-testRunner
+
+TestCase: OrgangeHRM login test
+--
+1. Launch Browser
+2. Verify Home Page Title
+3. Verify Login
+5. Close Browser
+
+------------------------------------------------------------------
+--> Run the test through terminal to generate the reports.
+    python TestCase_Orange_hrm_login.py
+------------------------------------------------------------------
+
+setUpClass() - Run only one time at the beginning of test method
+tearDownClass() - Run only one time after completion of test method
+
+------------------------------------------------------------------
+
+*****************************Page Object Model********************8
+- POM Based
+- Everytime whenever we use any framework POM needs to be followed.
+
+For every page we will create a python file which will only store elements and action methods of that page,
+in test case we will create only test methods.
+
+If any change is required, one need not to change in all test cases. Change will be implement in one python file
+
+
+------------------------------------------------------------------
+*********************Unittest POM Based Project*********************
+    Pages
+    |
+    TestCases
+    |
+    Reports
